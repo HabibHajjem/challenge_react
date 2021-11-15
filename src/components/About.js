@@ -4,10 +4,10 @@ function About(){
         <div className="about-me">
         <h1>
           Hello, my name is
-          <span class="rotate text-important">John doe</span>,<br />
+          <span className="rotate text-important">John doe</span>,<br />
           and i make horrible websites.
         </h1>
-        <img class="avatar" src={logo} alt="jhon-doe" />
+        <img className="avatar" src={logo} alt="jhon-doe" />
       </div>
     );
 }
